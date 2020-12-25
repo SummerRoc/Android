@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+<!--<Button-->
+<!--    android:id="@+id/save"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="70sp"-->
+<!--    android:text="存储数据"-->
+<!--    android:textSize="30sp"-->
+<!--    />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/read"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="70sp"-->
+<!--        android:text="读取数据"-->
+<!--        android:textSize="30sp"-->
+<!--        />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/create"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="70sp"-->
+<!--        android:text="创建数据库"-->
+<!--        android:textSize="30sp"-->
+<!--        />-->
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="match_parent"
+        android:layout_height="70sp"
+        android:text="添加数据"
+        android:textSize="30sp"
+        />
+
+    <Button
+        android:id="@+id/updata"
+        android:layout_width="match_parent"
+        android:layout_height="70sp"
+        android:text="修改数据"
+        android:textSize="30sp"
+        />
+
+    <Button
+        android:id="@+id/find"
+        android:layout_width="match_parent"
+        android:layout_height="70sp"
+        android:text="查找数据"
+        android:textSize="30sp"
+        />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="match_parent"
+        android:layout_height="70sp"
+        android:text="删除数据"
+        android:textSize="30sp"
+        />
+
+    <TextView
+        android:id="@+id/data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        />
+
+</LinearLayout>

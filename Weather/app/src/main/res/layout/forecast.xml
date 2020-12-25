@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--外层定义了半透明的背景-->
+
+    <LinearLayout
+    android:background="#8000"
+    android:layout_margin="15dp"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--定义了一个标题-->
+
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:text="预报"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"/>
+
+    <!--未来几天天气信息的布局，需要根据服务器返回的数据在代码中动态添加-->
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/forecast_layout">
+    </LinearLayout>
+
+</LinearLayout>

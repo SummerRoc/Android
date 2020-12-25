@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout tools:context=".Staff_input" android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal" android:layout_marginTop="20dp">
+
+    <TextView android:layout_height="match_parent" android:layout_width="0dp" android:textSize="21sp" android:text="书名 ：" android:layout_weight="1"/>
+
+    <EditText android:layout_height="match_parent" android:layout_width="0dp" android:layout_weight="3" android:id="@+id/book_name_id"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal">
+
+    <TextView android:layout_height="match_parent" android:layout_width="0dp" android:textSize="21sp" android:text="作者 ：" android:layout_weight="1"/>
+
+    <EditText android:layout_height="match_parent" android:layout_width="0dp" android:layout_weight="3" android:id="@+id/book_writer_id"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal">
+
+    <TextView android:layout_height="match_parent" android:layout_width="0dp" android:textSize="21sp" android:text="页码 ：" android:layout_weight="1"/>
+
+    <EditText android:layout_height="match_parent" android:layout_width="0dp" android:layout_weight="3" android:id="@+id/book_page_id" android:digits="1234567890" android:inputType="number"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal">
+
+    <TextView android:layout_height="match_parent" android:layout_width="0dp" android:textSize="21sp" android:text="价格 ：" android:layout_weight="1"/>
+
+    <EditText android:layout_height="match_parent" android:layout_width="0dp" android:layout_weight="3" android:id="@+id/book_price_id" android:digits="1234567890" android:inputType="number"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal">
+
+    <TextView android:layout_height="match_parent" android:layout_width="0dp" android:textSize="21sp" android:text="出版日期:" android:layout_weight="1"/>
+
+    <EditText android:layout_height="match_parent" android:layout_width="0dp" android:layout_weight="3" android:id="@+id/book_time_id"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal">
+
+    <TextView android:layout_height="match_parent" android:layout_width="0dp" android:textSize="21sp" android:text="数量 ：" android:layout_weight="1"/>
+
+    <EditText android:layout_height="match_parent" android:layout_width="0dp" android:layout_weight="3" android:id="@+id/book_amount_id"/>
+
+</LinearLayout>
+
+    <Button android:layout_height="wrap_content" android:layout_width="150dp" android:textSize="24sp" android:text="注册提交" android:id="@+id/book_commit_id" android:gravity="center" android:layout_gravity="center"/>
+
+</LinearLayout>

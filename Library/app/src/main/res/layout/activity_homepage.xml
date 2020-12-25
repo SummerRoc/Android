@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Homepage">
+
+        <Button
+            android:id="@+id/add_books"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:text="添加图书"
+            android:textSize="30sp"
+            />
+
+        <Button
+            android:id="@+id/update"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:text="修改信息"
+            android:textSize="30sp"
+            />
+
+
+        <Button
+            android:id="@+id/find"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:text="查找图书"
+            android:textSize="30sp"
+            />
+
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:text="删除图书"
+            android:textSize="30sp"
+            />
+
+    <TextView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/data"
+    android:textSize="30sp"
+    />
+
+
+</LinearLayout>

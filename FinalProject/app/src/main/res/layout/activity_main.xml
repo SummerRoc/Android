@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <RelativeLayout
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="fill_parent" android:gravity="center" android:layout_marginTop="60dp" android:layout_alignParentTop="true" android:id="@+id/linearLayout1">
+
+    <ImageView android:layout_height="80dp" android:layout_width="80dp" android:src="@drawable/copyright"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="35sp" android:textColor="#000000" android:text="@string/main_title" android:layout_marginLeft="10dp"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:orientation="vertical" android:layout_height="wrap_content" android:layout_width="fill_parent" android:gravity="center" android:layout_marginTop="70dp" android:layout_below="@+id/linearLayout1" android:layout_alignParentLeft="true">
+
+    <Button android:background="@drawable/main_login_selector" android:layout_height="45dp" android:layout_width="wrap_content" android:gravity="center" android:id="@+id/main_login_btn" android:textSize="15sp" android:textColor="#ffffff" android:text="@string/main_login" android:paddingRight="130dp" android:paddingLeft="130dp"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="14sp" android:text="@string/main_login_msg"/>
+
+    <Button android:background="@drawable/main_regist_selector" android:layout_height="45dp" android:layout_width="wrap_content" android:gravity="center" android:layout_marginTop="20dp" android:id="@+id/main_regist_btn" android:textSize="15sp" android:textColor="#000000" android:text="@string/main_regist" android:paddingRight="130dp" android:paddingLeft="130dp"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="14sp" android:text="@string/main_regist_msg"/>
+
+</LinearLayout>
+
+</RelativeLayout>

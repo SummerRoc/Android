@@ -21,9 +21,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         initFruits();
+
         FruitAdapter adapter = new FruitAdapter(MainActivity.this,R.layout.fruit_item2,fruitList);
+
         ListView listView = findViewById(R.id.list_view);
+
         listView.setAdapter(adapter);
+
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
@@ -36,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private  void initFruits(){
+
             Fruit apple = new Fruit(R.drawable.apple_pic,"苹果");
             fruitList.add(apple);
             Fruit banana = new Fruit(R.drawable.banana_pic,"香蕉");

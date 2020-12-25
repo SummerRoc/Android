@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout
+    tools:context=".login.Login_student"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_height="211dp"
+        android:layout_width="match_parent"
+        android:src="@drawable/pikapika"/>
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp">
+
+    <TextView
+        android:layout_height="match_parent"
+        android:layout_width="2dp"
+        android:text="账号： "
+        android:textSize="21sp"
+        android:layout_weight="1"/>
+
+    <EditText
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="5"
+        android:hint="type here"
+        android:id="@+id/accountStaff_id"/>
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp">
+
+    <TextView android:layout_height="match_parent" android:layout_width="0dp" android:text="密码 :" android:textSize="21sp" android:layout_weight="1"/>
+
+    <EditText android:layout_height="match_parent" android:layout_width="0dp" android:layout_weight="5" android:hint="type here" android:id="@+id/passwordStaff_id"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_marginRight="20dp" android:layout_marginLeft="20dp">
+
+    <CheckBox android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/rememberPassStaff_id" android:checked="true"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="记住密码" android:textSize="18sp"/>
+
+</LinearLayout>
+
+    <Button android:layout_height="wrap_content" android:layout_width="150dp" android:text="登录" android:textSize="20sp" android:id="@+id/commitStaff_id" android:layout_gravity="center"/>
+
+</LinearLayout>

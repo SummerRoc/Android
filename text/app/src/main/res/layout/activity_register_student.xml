@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout tools:context=".register.Register_student" android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal" android:layout_marginTop="20dp">
+
+    <TextView android:layout_height="match_parent" android:layout_width="0dp" android:textSize="21sp" android:text="账号 ：" android:layout_weight="1"/>
+
+    <EditText android:layout_height="match_parent" android:layout_width="0dp" android:layout_weight="3" android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890*/@#$%^" android:inputType="number" android:id="@+id/reg_st_acc_id"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal">
+
+    <TextView android:layout_height="match_parent" android:layout_width="0dp" android:textSize="18sp" android:text="输入密码" android:layout_weight="1"/>
+
+    <EditText android:layout_height="match_parent" android:layout_width="0dp" android:layout_weight="3" android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890*/@#$%^" android:inputType="textPassword" android:id="@+id/reg_st_pass1_id"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal">
+
+    <TextView android:layout_height="match_parent" android:layout_width="0dp" android:textSize="18sp" android:text="再输入密码" android:layout_weight="1"/>
+
+    <EditText android:layout_height="match_parent" android:layout_width="0dp" android:layout_weight="3" android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890*/@#$%^" android:inputType="textPassword" android:id="@+id/reg_st_pass2_id"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal">
+
+    <TextView android:layout_height="match_parent" android:layout_width="0dp" android:textSize="21sp" android:text="姓名 ：" android:layout_weight="1"/>
+
+    <EditText android:layout_height="match_parent" android:layout_width="0dp" android:layout_weight="3" android:id="@+id/reg_st_name_id"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal">
+
+    <TextView android:layout_height="match_parent" android:layout_width="0dp" android:textSize="21sp" android:text="学号 ：" android:layout_weight="1"/>
+
+    <EditText android:layout_height="match_parent" android:layout_width="0dp" android:layout_weight="3" android:digits="1234567890" android:inputType="number" android:id="@+id/reg_st_ID_id"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal">
+
+    <TextView android:layout_height="match_parent" android:layout_width="0dp" android:textSize="21sp" android:text="邮箱 ：" android:layout_weight="1"/>
+
+    <EditText android:layout_height="match_parent" android:layout_width="0dp" android:layout_weight="3" android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890@." android:inputType="number" android:id="@+id/reg_st_mail_id"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal">
+
+    <TextView android:layout_height="match_parent" android:layout_width="0dp" android:textSize="21sp" android:text="年龄 ：" android:layout_weight="1"/>
+
+    <EditText android:layout_height="match_parent" android:layout_width="0dp" android:layout_weight="3" android:inputType="number" android:id="@+id/reg_st_age_id"/>
+
+</LinearLayout>
+
+    <Button android:layout_height="wrap_content" android:layout_width="150dp" android:textSize="24sp" android:text="注册提交" android:id="@+id/reg_st_commit_id" android:gravity="center" android:layout_gravity="center"/>
+
+</LinearLayout>

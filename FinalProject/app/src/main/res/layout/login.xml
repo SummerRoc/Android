@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <RelativeLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="#ffffff" android:layout_height="fill_parent" android:layout_width="fill_parent" android:id="@+id/login_layout" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <RelativeLayout android:background="@drawable/login_top_bg" android:layout_height="40dp" android:layout_width="fill_parent" android:id="@+id/login_top_layout" android:layout_alignParentTop="true">
+
+    <Button android:background="@drawable/login_reback_selector" android:layout_height="23dp" android:layout_width="40dp" android:id="@+id/login_reback_btn" android:layout_marginTop="5dp" android:layout_marginLeft="5dp"/>
+
+    <TextView android:layout_height="23dp" android:layout_width="50dp" android:layout_marginTop="5dp" android:layout_marginLeft="5dp" android:text="@string/main_title" android:textColor="#ffffff" android:textStyle="bold" android:textSize="17sp" android:layout_centerInParent="true"/>
+
+</RelativeLayout>
+
+    <EditText android:background="@drawable/login_selector" android:layout_height="45dp" android:layout_width="300dp" android:id="@+id/login_user_edit" android:layout_marginTop="25dp" android:layout_marginLeft="10dp" android:textColor="#aaaaaa" android:textSize="15sp" android:hint="@string/login_user_hint" android:layout_below="@+id/login_top_layout"/>
+
+    <EditText android:background="@drawable/login_selector" android:layout_height="45dp" android:layout_width="300dp" android:id="@+id/login_passwd_edit" android:layout_marginTop="25dp" android:layout_marginLeft="10dp" android:textColor="#aaaaaa" android:textSize="15sp" android:hint="@string/login_passwd_hint" android:layout_below="@+id/login_user_edit"/>
+
+
+    <RelativeLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_marginTop="20dp" android:layout_below="@+id/login_passwd_edit">
+
+    <Button android:background="@drawable/login_forget_passwd_bg" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/forget_passwd" android:layout_marginLeft="20dp" android:text="@string/login_forget_passwd" android:textColor="#aaaaaa" android:layout_marginBottom="100dp" android:paddingTop="10dp"/>
+
+    <Button android:background="@drawable/main_login_selector" android:layout_height="40dp" android:layout_width="100dp" android:id="@+id/login_login_btn" android:text="@string/main_login" android:textColor="#ffffff" android:layout_alignParentRight="true" android:layout_marginRight="20dp"/>
+
+</RelativeLayout>
+
+</RelativeLayout>

@@ -30,6 +30,9 @@ public class AddressListFragment extends Fragment {
         return view;
     }
 
+
+
+
     private  void initAdress(){
         Address xiaoming = new Address(R.drawable.touxiang,"小明");
         addressList.add(xiaoming);
@@ -37,5 +40,19 @@ public class AddressListFragment extends Fragment {
         addressList.add(xiaohong);
         Address xiaohuang = new Address(R.drawable.touxiang,"小黄");
         addressList.add(xiaohuang);
+        Address xiaobai = new Address(R.drawable.haoyou,"小白");
+        addressList.add(xiaobai);
+        Address A = new Address(R.drawable.haoyou,"A");
+        addressList.add(A);
+        Address B = new Address(R.drawable.haoyou,"B");
+        addressList.add(B);
+        Address C = new Address(R.drawable.haoyou,"C");
+        addressList.add(C);
+        Address D = new Address(R.drawable.haoyou,"D");
+        addressList.add(D);
+        Address E = new Address(R.drawable.touxiang,"E");
+        addressList.add(E);
+        Address F = new Address(R.drawable.touxiang,"F");
+        addressList.add(F);
     }
 }
